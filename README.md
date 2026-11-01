@@ -1,32 +1,211 @@
-# Mega Man X Field Guide
+# ⚡ Mega Man X Field Guide
 
-**[Open the mobile X1 guide](https://romellbermundo.github.io/mmxguide/)**
+<div align="center">
 
-A compact, mobile-first **Mega Man X1** gameplay reference. Designed to put cheats, the eight Maverick weaknesses, four armor capsule locations, and four Sub-Tank locations on one concise page with no Heart Tank section.
+**YOUR MISSION. YOUR ROUTE. YOUR POCKET GUIDE.**
 
-## Game selection
+*A fast, focused companion for the Maverick hunt.*
 
-X1–X8 appear in the selector. **Only X1 is enabled.** X2–X8 are placeholders and contain no guides yet.
+[🌐 Open the Live Field Guide](https://romellbermundo.github.io/mmxguide/) · [📦 Source Code](https://github.com/romellbermundo/mmxguide)
 
-## X1 guide
+![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.2.0-64748b)
 
-- SNES Sub-Tank password and extra-life farming tip at the top
-- Eight bosses in the traditional weapon-weakness chain, with X-Buster recommended for the first fight
-- Four armor capsule locations: Legs, Helmet, Body, Arms
-- Four Sub-Tank locations: Storm Eagle, Flame Mammoth, Armored Armadillo, Spark Mandrill
-- No Heart Tanks, logins, frameworks, or external assets
+</div>
 
-The page uses a dense two-column mobile layout and expands to four columns for bosses/items on wider screens. It is optimized for quick mobile reference, but a literal no-scroll single viewport cannot be guaranteed on every phone or text-size setting.
+---
 
-**Game note:** The cheat password is for the original SNES version and may not apply to all ports or collections. Some items require revisiting stages.
+## 📑 Table of Contents
 
-## Run locally
+- [About the Field Guide](#-about-the-field-guide)
+- [How It Works](#-how-it-works)
+- [Key Features](#-key-features)
+- [Getting Started](#-getting-started)
+- [Publishing on GitHub Pages](#-publishing-on-github-pages)
+- [Project Structure](#-project-structure)
+- [Technology](#-technology)
+- [Design Philosophy](#-design-philosophy)
+- [Limitations and Game Notes](#-limitations-and-game-notes)
+- [Credits](#-credits)
+- [Version History](#-version-history)
 
-Open `index.html` in a browser. The guide is standalone HTML/CSS and requires no build step.
+---
 
-## Version history
+## 📖 About the Field Guide
+
+**Spend less time searching for answers and more time playing.**
+
+The **Mega Man X Field Guide** is a compact, mobile-first reference for *Mega Man X* (1993). It brings the eight Maverick weaknesses, four armor upgrades, four Sub-Tanks, and a few useful SNES secrets together on a single responsive page.
+
+Built to be checked between stages, the guide favors immediate answers over long walkthroughs. No accounts, downloads, ads, or navigation through multiple pages are required.
+
+The selector shows **X1–X8**, but **only X1 currently has guide content**. The remaining entries are intentionally disabled placeholders.
+
+---
+
+## 🔄 How It Works
+
+```text
+OPEN THE FIELD GUIDE
+         │
+         ▼
+     SELECT X1
+         │
+         ▼
+   FIND WHAT YOU NEED
+         │
+    ┌────┼────────┬─────────┐
+    ▼    ▼        ▼         ▼
+ CHEATS BOSSES   ARMOR   SUB-TANKS
+    │    │        │         │
+    └────┴────────┴─────────┘
+         │
+         ▼
+   RETURN TO THE GAME
+```
+
+The guide is a single static HTML file with embedded CSS. Information is visible immediately, without menus, server requests, or application state to manage.
+
+---
+
+## ✨ Key Features
+
+### 🎯 Eight Maverick Weaknesses
+
+See a suggested boss order and the weapon weakness for each Maverick. **Chill Penguin** is the recommended first fight using the X-Buster.
+
+### 🛡️ Four Armor Capsules
+
+Find the **Legs, Helmet, Body, and Arms** upgrades with short stage-specific location hints.
+
+### 🔋 Four Sub-Tanks
+
+Locate the four Sub-Tanks in **Storm Eagle, Flame Mammoth, Armored Armadillo, and Spark Mandrill** stages.
+
+### 🔐 Cheats & Secrets
+
+Quickly reference the original SNES Sub-Tank password and an extra-life farming tip.
+
+### 📱 Mobile-First Layout
+
+A dense two-column layout on smaller screens expands to four columns for boss and item cards on wider screens. The page is optimized for quick reference, although a single-screen fit cannot be guaranteed on every device.
+
+### ⚡ Lightweight and Instant
+
+No JavaScript framework, external asset dependency, backend, login, or build tooling. Just HTML and CSS.
+
+### 🕹️ Series Selector
+
+X1–X8 are visible for future expansion. **X2–X8 are disabled** and do not contain playable guides or reference data yet.
+
+---
+
+## 🚀 Getting Started
+
+### Option A — Use the website
+
+Visit **[Mega Man X Field Guide](https://romellbermundo.github.io/mmxguide/)** in your browser. No installation is required.
+
+### Option B — Run locally
+
+```bash
+git clone https://github.com/romellbermundo/mmxguide.git
+cd mmxguide
+```
+
+Open `index.html` in a browser. There are no packages to install or build commands to run.
+
+---
+
+## 🌐 Publishing on GitHub Pages
+
+The project is designed for static hosting at:
+
+**https://romellbermundo.github.io/mmxguide/**
+
+To configure GitHub Pages:
+
+1. Open the repository's **Settings → Pages**.
+2. Under **Build and deployment**, select your preferred source: **GitHub Actions** or **Deploy from a branch**.
+3. If using **GitHub Actions**, configure a Pages deployment workflow that publishes the repository's static files, then check the **Actions** tab for a successful run.
+4. If using **Deploy from a branch**, select `main` and the repository root (`/root`).
+5. Open the live URL after publishing completes.
+
+**Deployment note:** This repository currently contains `index.html` and `README.md`; no deployment workflow file was found during this documentation update. Selecting **GitHub Actions** alone does not create a deployment workflow. The guide requires no compilation.
+
+---
+
+## 🏗️ Project Structure
+
+```text
+mmxguide/
+├── index.html     # Content, layout, and embedded styles
+└── README.md      # Documentation and release history
+```
+
+Keeping the guide self-contained makes it easy to maintain, publish, and archive.
+
+---
+
+## 🛠️ Technology
+
+| Layer | Technology |
+|---|---|
+| Structure | HTML5 |
+| Styling | CSS3 |
+| Layout | CSS Grid and responsive media queries |
+| Hosting | GitHub Pages |
+| Version control | Git and GitHub |
+| Build system | None required |
+| Dependencies | None |
+
+---
+
+## 🎨 Design Philosophy
+
+**A field guide should never interrupt the mission.**
+
+The interface borrows its mood from classic science-fiction action games: dark blue panels, cyan highlights, compact typography, and clear visual groupings.
+
+- **Speed over complexity:** The information is immediately visible.
+- **Mobile first:** Designed to consult while playing on another screen.
+- **Useful density:** Short hints replace lengthy walkthroughs.
+- **No unnecessary features:** No accounts, trackers, or elaborate navigation.
+- **Expandable foundation:** Additional games can be introduced when their guides are ready.
+
+*Small enough to stay out of the way. Useful enough to keep open.*
+
+---
+
+## 🔒 Limitations and Game Notes
+
+- **X1 only:** X2–X8 are placeholders, not complete guides.
+- **No Heart Tank section:** Intentionally excluded from this compact reference.
+- **SNES-specific cheat:** The password targets the original SNES release and may not work in every port or collection.
+- **Backtracking:** Some upgrades require revisiting stages with abilities obtained later.
+- **Screen size:** Compact does not mean guaranteed zero scrolling.
+- **Unofficial fan project:** Not affiliated with or endorsed by Capcom.
+
+---
+
+## 🙏 Credits
+
+**Mega Man X** and its characters belong to **Capcom**. This independent, unofficial reference is intended for fans.
+
+**Guide implementation and project development:** Romell Bermundo.
+
+---
+
+## 🏷️ Version History
+
+### v1.2.0 — Portfolio README and GitHub Pages reference
+
+- Rebuilt the README following the NEXUS 01 documentation structure.
+- Added prominent live-site and repository links, technology badges, and a table of contents.
+- Documented the guide's features, architecture, deployment options, design principles, and limitations.
+- Preserved the existing X1 website without modifying gameplay reference content.
 
 ### v1.1 — Compact X1 pocket guide
+
 - Extended selector to X1–X8 while keeping X2–X8 disabled.
 - Added cheats and secrets at the top, including the four Sub-Tanks password.
 - Added all four Sub-Tank locations.
@@ -35,6 +214,7 @@ Open `index.html` in a browser. The guide is standalone HTML/CSS and requires no
 - Tightened spacing for a compact, mobile-first page.
 
 ### v1.0 — Mega Man X1 guide
+
 - Added X1–X4 tabs with X1 active.
 - Added eight Maverick bosses, recommended order, and weapon weaknesses.
 - Added four armor upgrade locations.
