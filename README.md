@@ -8,7 +8,7 @@
 
 [🌐 Open the Live Field Guide](https://romellbermundo.github.io/mmxguide/) · [📦 Source Code](https://github.com/romellbermundo/mmxguide)
 
-![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.2.2-64748b)
+![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.3.0-64748b)
 
 </div>
 
@@ -34,7 +34,7 @@
 
 **Spend less time searching for answers and more time playing.**
 
-The **Mega Man X Field Guide** is a compact, mobile-first reference for *Mega Man X* (1993). It brings the eight Maverick weaknesses, four armor upgrades, four Sub-Tanks, and a few useful SNES secrets together on a single responsive page.
+The **Mega Man X Field Guide** is a compact, mobile-first reference for *Mega Man X* (1993). It groups the eight Maverick weaknesses, four armor upgrades, and four Sub-Tanks by stage, with a few useful SNES secrets at the top.
 
 Built to be checked between stages, the guide favors immediate answers over long walkthroughs. No accounts, downloads, ads, or navigation through multiple pages are required.
 
@@ -63,15 +63,15 @@ OPEN THE FIELD GUIDE
    RETURN TO THE GAME
 ```
 
-The guide is a single static HTML file with embedded CSS. Information is visible immediately, without menus, server requests, or application state to manage.
+The guide is a single static HTML file with embedded CSS. Information is grouped into eight stage cards, without menus, server requests, or application state to manage.
 
 ---
 
 ## ✨ Key Features
 
-### 🎯 Eight Maverick Weaknesses
+### 🎯 Eight Maverick Stage Cards
 
-See a suggested boss order and the weapon weakness for each Maverick. **Chill Penguin** is the recommended first fight using the X-Buster.
+See a suggested boss order, each Maverick's weakness, and the collectibles in that stage in one place. **Chill Penguin** is the recommended first fight using the X-Buster.
 
 ### 🛡️ Four Armor Capsules
 
@@ -199,6 +199,12 @@ The interface borrows its mood from classic science-fiction action games: dark b
 ---
 
 ## 🏷️ Version History
+
+### v1.3.0 — Stage-by-stage guide
+
+- Consolidated boss weaknesses, armor upgrades, and Sub-Tanks into eight Maverick stage cards.
+- Placed each collectible's location hint directly beneath the corresponding boss.
+- Preserved cheats, SNES-style sprites, recommended boss order, and mobile-first layout.
 
 ### v1.2.2 — SNES-style artwork
 
