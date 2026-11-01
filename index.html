@@ -73,6 +73,10 @@ h1{font-size:1.08rem}.subtitle{font-size:.62rem;margin:1px 0}
 .collect-toggle[aria-pressed="true"] .collect-check{display:block}
 .collect-toggle:focus-visible{outline:2px solid #f3d087;outline-offset:2px}
 @media(max-width:380px){.loot .collect-toggle{flex-basis:24px;width:24px;height:26px}}
+/* v1.7.1: keep the item artwork visible; overlay the completion tick. */
+.collect-toggle[aria-pressed="true"] .sprite{display:block;opacity:.78;filter:saturate(.8)}
+.collect-toggle[aria-pressed="true"] .collect-check{display:grid;place-items:center;position:absolute;inset:0;z-index:2;color:#fff;font-size:19px;font-weight:900;line-height:1;text-shadow:0 1px 3px #00283e,1px 0 2px #00283e,-1px 0 2px #00283e;pointer-events:none}
+.collect-toggle[aria-pressed="true"]{background:#0a1c31;border-color:#9df6ff;box-shadow:inset 0 0 0 1px #d2ffff55}
 </style></head><body><main class="wrap">
 <header><div><h1>MEGA MAN <b>X</b></h1><p class="subtitle">Pocket Field Guide · X1</p></div><span class="tag">X1 ONLY</span></header>
 <nav class="tabs" aria-label="Select Mega Man X game"><button class="tab" aria-current="page" type="button">X1</button><button class="tab" disabled type="button" title="Not yet available">X2</button><button class="tab" disabled type="button" title="Not yet available">X3</button><button class="tab" disabled type="button" title="Not yet available">X4</button><button class="tab" disabled type="button" title="Not yet available">X5</button><button class="tab" disabled type="button" title="Not yet available">X6</button><button class="tab" disabled type="button" title="Not yet available">X7</button><button class="tab" disabled type="button" title="Not yet available">X8</button></nav>
@@ -90,7 +94,7 @@ h1{font-size:1.08rem}.subtitle{font-size:.62rem;margin:1px 0}
 <div class="section-head"><h2>02 / CHEATS &amp; SECRETS</h2><small>SNES original</small></div>
 <section class="cheats" aria-label="Cheats and secrets"><div class="cheat"><span class="sprite" aria-hidden="true" style="--sx:1125;--sy:455"></span><strong>4 Sub-Tanks password</strong><span><code>5724 8418 3588</code></span></div><div class="cheat"><span class="sprite" aria-hidden="true" style="--sx:1340;--sy:455"></span><strong>Easy extra lives</strong><span>Farm the unusual bat near the start of Armadillo's stage.</span></div></section>
 <p class="footnote">Route follows boss weaknesses; revisit stages for some upgrades. Passwords vary by game/version. No Heart Tanks shown.</p>
-<footer>MMX Field Guide · v1.7 · X2–X8 reserved for later</footer></main><script>
+<footer>MMX Field Guide · v1.7.1 · X2–X8 reserved for later</footer></main><script>
 (() => {
   const key = 'mmxguide-x1-collected-v1';
   let collected = {};
