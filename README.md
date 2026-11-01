@@ -8,7 +8,7 @@
 
 [🌐 Open the Live Field Guide](https://romellbermundo.github.io/mmxguide/) · [📦 Source Code](https://github.com/romellbermundo/mmxguide)
 
-![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.3.0-64748b)
+![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.4.0-64748b)
 
 </div>
 
@@ -34,7 +34,7 @@
 
 **Spend less time searching for answers and more time playing.**
 
-The **Mega Man X Field Guide** is a compact, mobile-first reference for *Mega Man X* (1993). It groups the eight Maverick weaknesses, four armor upgrades, and four Sub-Tanks by stage, with a few useful SNES secrets at the top.
+The **Mega Man X Field Guide** is a compact, mobile-first reference for *Mega Man X* (1993). It groups the eight Maverick weaknesses, four armor upgrades, and four Sub-Tanks by stage, with a few useful SNES secrets at the bottom.
 
 Built to be checked between stages, the guide favors immediate answers over long walkthroughs. No accounts, downloads, ads, or navigation through multiple pages are required.
 
@@ -55,7 +55,7 @@ OPEN THE FIELD GUIDE
          │
     ┌────┼────────┬─────────┐
     ▼    ▼        ▼         ▼
- CHEATS BOSSES   ARMOR   SUB-TANKS
+ BOSSES  ARMOR   SUB-TANKS  SECRETS
     │    │        │         │
     └────┴────────┴─────────┘
          │
@@ -83,11 +83,11 @@ Locate the four Sub-Tanks in **Storm Eagle, Flame Mammoth, Armored Armadillo, an
 
 ### 🔐 Cheats & Secrets
 
-Quickly reference the original SNES Sub-Tank password and an extra-life farming tip.
+Find the original SNES Sub-Tank password and an extra-life farming tip below the Maverick stage cards.
 
 ### 📱 Mobile-First Layout
 
-A dense two-column layout on smaller screens expands to four columns for boss and item cards on wider screens. The page is optimized for quick reference, although a single-screen fit cannot be guaranteed on every device.
+A compact two-column stage-card layout keeps each boss and its collectibles together on phones and wider screens. The page is optimized for quick reference, although a single-screen fit cannot be guaranteed on every device.
 
 ### ⚡ Lightweight and Instant
 
@@ -167,7 +167,7 @@ Keeping the guide self-contained makes it easy to maintain, publish, and archive
 
 **A field guide should never interrupt the mission.**
 
-The interface borrows its mood from classic science-fiction action games: dark blue panels, cyan highlights, compact typography, and clear visual groupings.
+The interface borrows its mood from classic science-fiction action games: alternating blue mission panels, cyan highlights, metallic borders, compact typography, and clear visual groupings.
 
 - **Speed over complexity:** The information is immediately visible.
 - **Mobile first:** Designed to consult while playing on another screen.
@@ -199,6 +199,13 @@ The interface borrows its mood from classic science-fiction action games: dark b
 ---
 
 ## 🏷️ Version History
+
+### v1.4.0 — Futuristic mission panels
+
+- Moved Cheats & Secrets beneath the eight Maverick stage cards.
+- Improved the fit and scale of armor, Sub-Tank, and cheat sprites.
+- Introduced alternating blue stage-card backgrounds with clearer contrast from the page.
+- Added subtle cyan console lighting and metallic borders while preserving the compact two-column mobile layout.
 
 ### v1.3.0 — Stage-by-stage guide
 
