@@ -8,7 +8,7 @@
 
 [🌐 Open the Live Field Guide](https://romellbermundo.github.io/mmxguide/) · [📦 Source Code](https://github.com/romellbermundo/mmxguide)
 
-![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.7.1-64748b)
+![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.7.2-64748b)
 
 </div>
 
@@ -203,6 +203,11 @@ The interface borrows its mood from classic science-fiction action games: altern
 ---
 
 ## 🏷️ Version History
+
+### v1.7.2 — Cleaner footer
+
+- Removed the unnecessary route and password notice above the version number.
+- Kept gameplay details and the version footer intact.
 
 ### v1.7.1 — Checkmark overlay
 
