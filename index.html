@@ -31,6 +31,28 @@ h1{letter-spacing:.11em;text-shadow:0 0 16px #1b87b477}
 .cheat{padding-left:43px}
 .footnote{margin-top:10px}
 @media(max-width:380px){.stage .loot .sprite{flex-basis:26px;width:26px;height:28px}.cheat .sprite{width:28px;height:29px}.stage{padding:6px}}
+
+/* v1.5 compact mission dashboard: retain legibility on small phones */
+.wrap{padding:6px 8px 9px}
+header{padding:3px 1px 4px}
+h1{font-size:1.08rem}.subtitle{font-size:.62rem;margin:1px 0}
+.tag{font-size:.6rem;padding:3px 7px}
+.tabs{margin:5px 0;gap:3px}.tab{padding:4px 0;font-size:.67rem}
+.section-head{margin:6px 0 4px}h2{font-size:.72rem}.section-head small{font-size:.59rem}
+.route{gap:4px}
+.stage{padding:5px 6px;border-radius:7px}
+.stage-top{gap:5px}
+.stage-top>.sprite{flex:0 0 28px;width:28px;height:31px;background-size:280px 187px;background-position:calc(var(--sx) * -0.1823px) calc(var(--sy) * -0.1823px)}
+.stage-name{gap:4px}.stage-name strong{font-size:.7rem}.stage-no{font-size:.57rem}
+.stage-info p{margin:2px 0 0;font-size:.63rem;line-height:1.2}.field-label{font-size:.53rem}
+.stage-loot{margin-top:4px;padding-top:4px;gap:3px}
+.loot{gap:5px}.stage .loot .sprite{flex:0 0 22px;width:22px;height:24px;background-size:210px 140px;background-position:calc(var(--sx) * -0.1367px) calc(var(--sy) * -0.1367px)}
+.loot b{font-size:.62rem}.loot small{font-size:.58rem;line-height:1.17;margin-top:1px}
+.cheats{gap:4px;margin-top:4px}.cheat{min-height:50px;padding:5px 5px 5px 35px}.cheat .sprite{left:4px;top:6px;width:25px;height:27px;background-size:220px 147px;background-position:calc(var(--sx) * -0.1432px) calc(var(--sy) * -0.1432px)}
+.cheat strong{font-size:.65rem}.cheat span{font-size:.61rem}.cheat code{font-size:.7rem}
+.footnote{margin-top:6px;font-size:.6rem;line-height:1.2}footer{margin-top:5px;font-size:.58rem}
+@media(max-width:380px){.wrap{padding:5px}.stage{padding:4px}.stage-top{gap:3px}.stage-top>.sprite{flex-basis:25px;width:25px;height:29px}.stage-name strong{font-size:.66rem}.stage-info p{font-size:.6rem}.loot{gap:3px}.loot b{font-size:.6rem}.loot small{font-size:.56rem}}
+@media(min-width:650px){.wrap{padding:12px}.stage{padding:8px}.stage-top>.sprite{flex-basis:34px;width:34px;height:38px}.stage-name strong{font-size:.79rem}.stage-info p{font-size:.7rem}.loot small{font-size:.66rem}}
 </style></head><body><main class="wrap">
 <header><div><h1>MEGA MAN <b>X</b></h1><p class="subtitle">Pocket Field Guide · X1</p></div><span class="tag">X1 ONLY</span></header>
 <nav class="tabs" aria-label="Select Mega Man X game"><button class="tab" aria-current="page" type="button">X1</button><button class="tab" disabled type="button" title="Not yet available">X2</button><button class="tab" disabled type="button" title="Not yet available">X3</button><button class="tab" disabled type="button" title="Not yet available">X4</button><button class="tab" disabled type="button" title="Not yet available">X5</button><button class="tab" disabled type="button" title="Not yet available">X6</button><button class="tab" disabled type="button" title="Not yet available">X7</button><button class="tab" disabled type="button" title="Not yet available">X8</button></nav>
@@ -48,4 +70,4 @@ h1{letter-spacing:.11em;text-shadow:0 0 16px #1b87b477}
 <div class="section-head"><h2>02 / CHEATS &amp; SECRETS</h2><small>SNES original</small></div>
 <section class="cheats" aria-label="Cheats and secrets"><div class="cheat"><span class="sprite" aria-hidden="true" style="--sx:1125;--sy:455"></span><strong>4 Sub-Tanks password</strong><span><code>5724 8418 3588</code></span></div><div class="cheat"><span class="sprite" aria-hidden="true" style="--sx:1340;--sy:455"></span><strong>Easy extra lives</strong><span>Farm the unusual bat near the start of Armadillo's stage.</span></div></section>
 <p class="footnote">Route follows boss weaknesses; revisit stages for some upgrades. Passwords vary by game/version. No Heart Tanks shown.</p>
-<footer>MMX Field Guide · v1.4 · X2–X8 reserved for later</footer></main></body></html>
+<footer>MMX Field Guide · v1.5 · X2–X8 reserved for later</footer></main></body></html>
