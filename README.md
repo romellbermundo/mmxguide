@@ -8,7 +8,7 @@
 
 [🌐 Open the Live Field Guide](https://romellbermundo.github.io/mmxguide/) · [📦 Source Code](https://github.com/romellbermundo/mmxguide)
 
-![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.6.0-64748b)
+![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.6.1-64748b)
 
 </div>
 
@@ -87,7 +87,7 @@ Find the original SNES Sub-Tank password and an extra-life farming tip below the
 
 ### 📱 Mobile-First Layout
 
-A compact two-column stage-card layout keeps each boss and its collectibles together on phones and wider screens. The page is optimized for quick reference, although a single-screen fit cannot be guaranteed on every device.
+A compact two-column stage-card layout places bosses 1–4 vertically in the left column and 5–8 vertically in the right, with each boss and its collectibles together. The page is optimized for quick reference, although a single-screen fit cannot be guaranteed on every device.
 
 ### ⚡ Lightweight and Instant
 
@@ -199,6 +199,11 @@ The interface borrows its mood from classic science-fiction action games: altern
 ---
 
 ## 🏷️ Version History
+
+### v1.6.1 — Vertical boss columns
+
+- Changed the two-column guide to read 1–4 down the left and 5–8 down the right.
+- Kept alternating panel colors across the visual rows and preserved all stage details.
 
 ### v1.6.0 — Boss-based weakness labels
 
