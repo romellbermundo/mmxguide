@@ -8,7 +8,7 @@
 
 [🌐 Open the Live Field Guide](https://romellbermundo.github.io/mmxguide/) · [📦 Source Code](https://github.com/romellbermundo/mmxguide)
 
-![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.6.1-64748b)
+![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.7.0-64748b)
 
 </div>
 
@@ -76,6 +76,10 @@ See a suggested boss order, the **boss that provides each weakness weapon**, and
 ### 🛡️ Four Armor Capsules
 
 Find the **Legs, Helmet, Body, and Arms** upgrades with short stage-specific location hints.
+
+### ✅ Collectible Progress
+
+Tap an armor or Sub-Tank icon to replace it with a checked square. Tap again to undo. Progress is saved locally in your browser using `localStorage`, without an account. Clearing browser site data resets selections.
 
 ### 🔋 Four Sub-Tanks
 
@@ -199,6 +203,12 @@ The interface borrows its mood from classic science-fiction action games: altern
 ---
 
 ## 🏷️ Version History
+
+### v1.7.0 — Collectible checkmarks
+
+- Added tappable checkmark toggles for all eight armor and Sub-Tank collectibles.
+- Saves progress in browser localStorage; tapping again restores the icon.
+- Preserved the compact two-column layout and boss artwork.
 
 ### v1.6.1 — Vertical boss columns
 
