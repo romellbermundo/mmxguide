@@ -8,7 +8,7 @@
 
 [🌐 Open the Live Field Guide](https://romellbermundo.github.io/mmxguide/) · [📦 Source Code](https://github.com/romellbermundo/mmxguide)
 
-![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.5.1-64748b)
+![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.6.0-64748b)
 
 </div>
 
@@ -71,7 +71,7 @@ The guide is a single static HTML file with embedded CSS. Information is grouped
 
 ### 🎯 Eight Maverick Stage Cards
 
-See a suggested boss order, each Maverick's weakness, and the collectibles in that stage in one place. **Chill Penguin** is the recommended first fight using the X-Buster.
+See a suggested boss order, the **boss that provides each weakness weapon**, and the collectibles in that stage in one place. **Chill Penguin** remains the recommended first fight using the X-Buster; Flame Mammoth supplies its elemental weakness.
 
 ### 🛡️ Four Armor Capsules
 
@@ -199,6 +199,12 @@ The interface borrows its mood from classic science-fiction action games: altern
 ---
 
 ## 🏷️ Version History
+
+### v1.6.0 — Boss-based weakness labels
+
+- Replaced weakness weapon names with the Maverick that grants each weapon.
+- Kept Chill Penguin marked as the recommended X-Buster-first fight, with Flame Mammoth listed as its weakness source.
+- Preserved the existing boss order and stage collectibles.
 
 ### v1.5.1 — Alternating row colors
 
