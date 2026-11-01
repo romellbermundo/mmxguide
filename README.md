@@ -8,7 +8,7 @@
 
 [🌐 Open the Live Field Guide](https://romellbermundo.github.io/mmxguide/) · [📦 Source Code](https://github.com/romellbermundo/mmxguide)
 
-![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.2.0-64748b)
+![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.2.1-64748b)
 
 </div>
 
@@ -126,11 +126,11 @@ To configure GitHub Pages:
 
 1. Open the repository's **Settings → Pages**.
 2. Under **Build and deployment**, select your preferred source: **GitHub Actions** or **Deploy from a branch**.
-3. If using **GitHub Actions**, configure a Pages deployment workflow that publishes the repository's static files, then check the **Actions** tab for a successful run.
+3. If using **GitHub Actions**, the included `.github/workflows/deploy.yml` publishes the static site; check the **Actions** tab for a successful run.
 4. If using **Deploy from a branch**, select `main` and the repository root (`/root`).
 5. Open the live URL after publishing completes.
 
-**Deployment note:** This repository currently contains `index.html` and `README.md`; no deployment workflow file was found during this documentation update. Selecting **GitHub Actions** alone does not create a deployment workflow. The guide requires no compilation.
+**Deployment note:** The repository includes a GitHub Actions workflow at `.github/workflows/deploy.yml`. It deploys on pushes to `main` or when run manually. The guide requires no compilation.
 
 ---
 
@@ -138,8 +138,9 @@ To configure GitHub Pages:
 
 ```text
 mmxguide/
-├── index.html     # Content, layout, and embedded styles
-└── README.md      # Documentation and release history
+├── .github/workflows/deploy.yml  # Automatic Pages deployment
+├── index.html                   # Content, layout, and embedded styles
+└── README.md                    # Documentation and release history
 ```
 
 Keeping the guide self-contained makes it easy to maintain, publish, and archive.
@@ -154,6 +155,7 @@ Keeping the guide self-contained makes it easy to maintain, publish, and archive
 | Styling | CSS3 |
 | Layout | CSS Grid and responsive media queries |
 | Hosting | GitHub Pages |
+| Deployment | GitHub Actions |
 | Version control | Git and GitHub |
 | Build system | None required |
 | Dependencies | None |
@@ -196,6 +198,11 @@ The interface borrows its mood from classic science-fiction action games: dark b
 ---
 
 ## 🏷️ Version History
+
+### v1.2.1 — Automatic GitHub Pages deployment
+
+- Added GitHub Actions workflow to deploy the static site on pushes to `main` or manual runs.
+- Updated deployment instructions and project structure to match the repository.
 
 ### v1.2.0 — Portfolio README and GitHub Pages reference
 
