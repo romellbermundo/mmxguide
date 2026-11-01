@@ -8,7 +8,7 @@
 
 [🌐 Open the Live Field Guide](https://romellbermundo.github.io/mmxguide/) · [📦 Source Code](https://github.com/romellbermundo/mmxguide)
 
-![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.2.1-64748b)
+![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.2.2-64748b)
 
 </div>
 
@@ -91,7 +91,7 @@ A dense two-column layout on smaller screens expands to four columns for boss an
 
 ### ⚡ Lightweight and Instant
 
-No JavaScript framework, external asset dependency, backend, login, or build tooling. Just HTML and CSS.
+No JavaScript framework, backend, login, or build tooling. Just HTML, CSS, and a locally hosted WebP sprite sheet.
 
 ### 🕹️ Series Selector
 
@@ -140,6 +140,7 @@ To configure GitHub Pages:
 mmxguide/
 ├── .github/workflows/deploy.yml  # Automatic Pages deployment
 ├── index.html                   # Content, layout, and embedded styles
+├── mmxguide-snes-sprites.webp   # SNES-style portrait and item sprite sheet
 └── README.md                    # Documentation and release history
 ```
 
@@ -158,7 +159,7 @@ Keeping the guide self-contained makes it easy to maintain, publish, and archive
 | Deployment | GitHub Actions |
 | Version control | Git and GitHub |
 | Build system | None required |
-| Dependencies | None |
+| Dependencies | One local WebP sprite sheet |
 
 ---
 
@@ -198,6 +199,12 @@ The interface borrows its mood from classic science-fiction action games: dark b
 ---
 
 ## 🏷️ Version History
+
+### v1.2.2 — SNES-style artwork
+
+- Added pixel-art portraits to all eight Maverick weakness cards.
+- Added armor, Sub-Tank, and cheat icons using the uploaded WebP sprite sheet.
+- Kept the single-page mobile layout and existing gameplay reference content.
 
 ### v1.2.1 — Automatic GitHub Pages deployment
 
