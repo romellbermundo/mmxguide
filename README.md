@@ -8,7 +8,7 @@
 
 [🌐 Open the Live Field Guide](https://romellbermundo.github.io/mmxguide/) · [📦 Source Code](https://github.com/romellbermundo/mmxguide)
 
-![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.4.0-64748b)
+![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-1.5.0-64748b)
 
 </div>
 
@@ -199,6 +199,12 @@ The interface borrows its mood from classic science-fiction action games: altern
 ---
 
 ## 🏷️ Version History
+
+### v1.5.0 — Compact mobile dashboard
+
+- Reduced stage card height, sprite dimensions, padding, and section spacing to minimize scrolling.
+- Kept two-column Maverick cards, readable text, alternating futuristic panel colors, and cheats at the bottom.
+- Maintained responsive sizing for narrow phones and larger screens.
 
 ### v1.4.0 — Futuristic mission panels
 
