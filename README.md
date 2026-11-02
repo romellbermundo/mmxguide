@@ -204,6 +204,13 @@ The interface borrows its mood from classic science-fiction action games: altern
 
 ## 🏷️ Version History
 
+### v2.2.1 — Revised PS1-style artwork uploaded
+
+- Replaced all eight X1 boss portraits and six item icons with the approved v2 pack.
+- Confirmed the 14 expected PNG filenames and updated `ASSET_MAP.md` are present in the repository root.
+- Preserved native-size image bindings, collectible checkmarks, and X2 placeholders.
+- Artwork still requires a rendered mobile visual check; automated checks cover dimensions and references.
+
 ### v2.2.0 — Artwork sizing contract and automated QA
 
 - Removed obsolete SNES sprite styling from the live page; X1 uses individual PNG images.
