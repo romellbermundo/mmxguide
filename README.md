@@ -8,7 +8,7 @@
 
 [🌐 Open the Live Field Guide](https://romellbermundo.github.io/mmxguide/) · [📦 Source Code](https://github.com/romellbermundo/mmxguide)
 
-![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-2.0.0-64748b)
+![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-238636) ![HTML](https://img.shields.io/badge/Built%20with-HTML%20%26%20CSS-1769aa) ![Mobile First](https://img.shields.io/badge/Design-Mobile--First-00a6b2) ![Version](https://img.shields.io/badge/Version-2.1.0-64748b)
 
 </div>
 
@@ -203,6 +203,13 @@ The interface borrows its mood from classic science-fiction action games: altern
 ---
 
 ## 🏷️ Version History
+
+### v2.1.0 — PS1-style X1 artwork
+
+- Connected eight native-size 28 × 31 PNG Maverick portraits and six 22 × 24 PNG item designs uploaded to the repository root.
+- Reused item PNGs across collectible checkboxes and cheat icons, retaining completion overlays and saved progress.
+- Kept X2 placeholders untouched; X1 no longer depends on sprite-sheet cropping for its displayed images.
+- `ASSET_MAP.md` documents the image filenames and native dimensions.
 
 ### v2.0.0 — Mega Man X2 guide
 
