@@ -204,6 +204,16 @@ The interface borrows its mood from classic science-fiction action games: altern
 
 ## 🏷️ Version History
 
+### v2.2.0 — Artwork sizing contract and automated QA
+
+- Removed obsolete SNES sprite styling from the live page; X1 uses individual PNG images.
+- Fixed X1 portrait and collectible display sizes at native 28 × 31 and 22 × 24 pixels, with no CSS scaling or cropping.
+- Added `scripts/validate_artwork.py` to verify all 14 PNG files, X1 image references, and eight collectible controls.
+- Added `.github/workflows/validate-artwork.yml` and a pre-deployment artwork check in the Pages workflow.
+- **Art direction:** keep subjects framed with visible breathing room *inside* the fixed PNG canvas. Dimensions alone do not guarantee a good crop. Inspect at actual size on mobile before approving future art.
+
+**Artwork workflow:** design at target aspect ratio → frame the subject with internal margins → export native-size PNG → run `python3 scripts/validate_artwork.py` → visually review in the actual mobile cards → publish. Do not add CSS overrides to compensate for incorrect source artwork.
+
 ### v2.1.0 — PS1-style X1 artwork
 
 - Connected eight native-size 28 × 31 PNG Maverick portraits and six 22 × 24 PNG item designs uploaded to the repository root.
