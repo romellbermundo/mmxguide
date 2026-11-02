@@ -20,7 +20,7 @@ def validate_png(name, expected):
         errors.append(f"Missing: {path.name}")
         return
     raw = path.read_bytes()
-    if len(raw) < 24 or raw[:8] != b"\x89PNG\\r\n\x1a\n" or raw[12:16] != b"IHDR":
+    if len(raw) < 24 or raw[:8] != b"\x89PNG\r\n\x1a\n" or raw[12:16] != b"IHDR":
         errors.append(f"Invalid PNG header: {path.name}")
         return
     size = struct.unpack(">II", raw[16:24])
