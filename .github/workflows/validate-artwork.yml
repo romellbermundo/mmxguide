@@ -1,0 +1,17 @@
+name: Validate MMX Artwork
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  artwork:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate asset dimensions and HTML bindings
+        run: python3 scripts/validate_artwork.py
