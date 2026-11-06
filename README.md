@@ -204,6 +204,13 @@ The interface borrows its mood from classic science-fiction action games: altern
 
 ## 🏷️ Version History
 
+### v3.1.0 — X1 Sigma Fortress bosses
+
+- Added a separate seven-encounter Sigma Fortress weakness guide directly after X1's eight Maverick stages.
+- Covers Vile, Bospider, Rangda Bangda, D-Rex, Velguarder, Sigma's first form, and Wolf Sigma, grouped by fortress stage.
+- Uses compact existing card styling and question-mark artwork placeholders; no new images created.
+- Renumbered X1 Cheats & Secrets as section 03. X2–X8 content remains unchanged.
+
 ### v3.0.0 — X1–X8 game pages
 
 - Enabled all eight game tabs with independent panels and hash-based deep links (`#x1` through `#x8`).
