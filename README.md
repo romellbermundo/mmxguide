@@ -204,6 +204,14 @@ The interface borrows its mood from classic science-fiction action games: altern
 
 ## 🏷️ Version History
 
+### v3.0.0 — X1–X8 game pages
+
+- Enabled all eight game tabs with independent panels and hash-based deep links (`#x1` through `#x8`).
+- Added eight Maverick stage cards for each of X3–X8, with deliberately blank artwork placeholders.
+- Added game-specific upgrade checklists and secrets sections, keeping locations and weaknesses marked as unverified rather than guessing.
+- Extended per-game localStorage collection tracking to X3–X8 without resetting existing X1/X2 progress.
+- X1/X2 existing content and images remain unchanged. Future work: verify stage details, assign items to stages, and create art only after approval.
+
 ### v2.2.1 — Revised PS1-style artwork uploaded
 
 - Replaced all eight X1 boss portraits and six item icons with the approved v2 pack.
